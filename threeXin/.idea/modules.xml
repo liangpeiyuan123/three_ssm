@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/three_common/three_common.iml" filepath="$PROJECT_DIR$/three_common/three_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/three_dao/three_dao.iml" filepath="$PROJECT_DIR$/three_dao/three_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/three_interface/three_interface.iml" filepath="$PROJECT_DIR$/three_interface/three_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/three_pojo/three_pojo.iml" filepath="$PROJECT_DIR$/three_pojo/three_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/three_service/three_service.iml" filepath="$PROJECT_DIR$/three_service/three_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/three_ssm.iml" filepath="$PROJECT_DIR$/three_ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/three_web/three_web.iml" filepath="$PROJECT_DIR$/three_web/three_web.iml" />
+    </modules>
+  </component>
+</project>

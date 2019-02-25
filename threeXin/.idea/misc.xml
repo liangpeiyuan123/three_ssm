@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$USER_HOME$/Desktop/6期项目实战相关/相关资料/08-未修改的初始项目/travel" />
+    <file type="web" url="file://$PROJECT_DIR$/three_service" />
+    <file type="web" url="file://$PROJECT_DIR$/three_web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/three_domain/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://www.springframework.org/schema/beans" location="$PROJECT_DIR$" />
+    <resource url="http://www.springframework.org/schema/beans/spring-beans-4.3.xsd" location="$USER_HOME$/.IntelliJIdea2017.3/system/extResources/d83fe593_spring-beans-4.3.xsd" />
+    <resource url="http://www.springframework.org/schema/context" location="$USER_HOME$/.IntelliJIdea2017.3/system/extResources/a93b54e7_spring-context.xsd" />
+    <resource url="http://www.springframework.org/schema/mvc/spring-mvc.xsd" location="$USER_HOME$/.IntelliJIdea2017.3/system/extResources/f7d22907_spring-mvc.xsd" />
+    <resource url="http://www.springframework.org/schema/security" location="$USER_HOME$/.IntelliJIdea2017.3/system/extResources/67d00c89_spring-security.xsd" />
+    <resource url="http://www.springframework.org/schema/tool/spring-tool-4.3.xsd" location="$USER_HOME$/.IntelliJIdea2017.3/system/extResources/946a6b65_spring-tool-4.3.xsd" />
+    <resource url="http://www.springframework.org/schema/tx" location="$USER_HOME$/.IntelliJIdea2017.3/system/extResources/bc20ae51_spring-tx.xsd" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

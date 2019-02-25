@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--用xml方式完成 控制反转  和 依赖注入-->
+
+    <!--把serviceimpl交给spring管理-->
+    <bean id="service" class="com.itheima.service.impl.AccountServiceImpl">
+        <!--完成依赖注入-->
+        <property name="accountDao" ref="dao"></property>
+    </bean>
+
+    <!--把daoimpl交给spring管理-->
+    <bean id="dao" class="com.itheima.dao.impl.AccountDaoImpl">
+        <!--完成依赖注入-->
+        <property name="jt" ref="template"></property>
+    </bean>
+
+    <!--把jdbcTemplate交给spring管理-->
+    <bean id="template" class="org.springframework.jdbc.core.JdbcTemplate" >
+        <constructor-arg name="dataSource" ref="ds"></constructor-arg>
+    </bean>
+
+    <!--把dataSource交给spring管理-->
+    <bean id="ds" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql:///mybatis"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="root"></property>
+    </bean>
+</beans>
